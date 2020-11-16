@@ -11,4 +11,4 @@ for i in range(n):
     odd += 1
 
 percentage = even / n * 100
-print("%", percentage)
+print(str(percentage) + "%")
