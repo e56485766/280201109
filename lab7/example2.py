@@ -8,3 +8,6 @@ for i in books:
   book_dict[i] = (len(i), len(unique_char), average)
 
 print(book_dict)
+
+for i in book_dict:
+  print(i, "->", book_dict[i])
