@@ -1,9 +1,11 @@
-def sum_of_list(a_list):
-  sum = 0
-  for i in a_list:
-    sum += i
-    return sum
+def sum_of_list(numbers):
+  value = 0
+  
+  for i in numbers:
+    value += i
 
-list_1 = [12, -7, 5, -89.4, 3, 27, 56, 57.3]
+  return value ** 2
 
-print(sum_of_list(list_1))
+a_list = [12, -7, 5, -89.4, 3, 27, 56, 57.3]
+value = sum_of_list(a_list)
+print(value)
