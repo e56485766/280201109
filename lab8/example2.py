@@ -5,8 +5,18 @@ def is_prime(number):
       prime = False
 
   return prime
-        
-print(is_prime(2))
-print(is_prime(3))
-print(is_prime(10))
-print(is_prime(11))
+
+def print_primes_between(a, b):
+  for i in range(a, b):
+    if is_prime(i):
+      print(i)
+
+# print(is_prime(2))
+# print(is_prime(3))
+# print(is_prime(10))
+# print(is_prime(11))
+
+x = int(input("Int1: "))
+y = int(input("Int2: "))
+print("Prime numbers between", x, "and", y)
+print_primes_between(x, y)
